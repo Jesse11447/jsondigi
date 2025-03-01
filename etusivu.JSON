@@ -7,14 +7,14 @@
         "tunnus": "DIG4TA021",
         "opintopisteet": 5,
         "sisalto": [
-            "low-code",
-            "sisällönhallintajärjestelmät",
-            "responsiivinen käyttöliittymä ja komponentit",
-            "tiedon haku julkisista palveluista REST-rajapinnan yli"
+            "Low-code",
+            "Sisällönhallintajärjestelmät",
+            "Responsiivinen käyttöliittymä ja komponentit",
+            "Tiedon haku julkisista palveluista REST-rajapinnan yli"
         ],
         "tekniikat": [
             {
-                "aihe": "low-code",
+                "aihe": "Low-code",
                 "linkki": "https://www.weebly.com/"
             },
             {
