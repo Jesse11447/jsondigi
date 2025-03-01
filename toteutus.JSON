@@ -1,0 +1,21 @@
+{
+    "toteutus": {
+        "nimi": "Digitekniikat",
+        "osallistujat": {
+            "lukumaara": 5,
+            "nimet": [
+                "Matti Meikäläinen",
+                "Anna Virtanen",
+                "Pekka Pouta",
+                "Laura Laine",
+                "Jussi Jokinen"
+            ]
+        },
+        "ajankohta": {
+            "alku": "13.1.2025",
+            "loppu": "14.3.2025",
+            "kesto_viikkoina": 8
+        },
+        "kuva": "https://theycallmejonna.github.io/digi.JSON/toteutuskuva1.jpeg"
+    }
+}
