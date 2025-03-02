@@ -1,4 +1,4 @@
-//Haetaan HKI lähtevät junat//
+//Haetaan Tampereelle lähtevät junat (Helsingistä)//
 fetch("https://rata.digitraffic.fi/api/v1/live-trains/station/tpe?departing_trains=10&include_nonstopping=false")
     .then(function (response) {
         return response.json();
@@ -10,7 +10,7 @@ fetch("https://rata.digitraffic.fi/api/v1/live-trains/station/tpe?departing_trai
         document.getElementById("junat").innerHTML = "<p>Tietoa ei pystytä hakemaan</p>" + error;
     });
 
-//Käsitellään tiedot funktion avulla//
+//Käsitellään tiedot//
 function naytaJunat(data) {
     var teksti = "<h2>Helsingistä lähtevät junat Tampereelle</h2>";
 
