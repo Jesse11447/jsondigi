@@ -1,0 +1,133 @@
+/* navigaatio */
+.topnav {
+    background-color: rgb(37, 36, 36);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 10px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: rgb(162, 152, 152);
+    color: aliceblue;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none
+}
+
+/* nav loppu */
+
+.allbody {
+    background-color: blanchedalmond;
+    text-align: ce;
+}
+
+.jalka {
+    text-align: center;
+    border-top: 1px solid;
+    padding-top: 1%;
+
+}
+
+.sisalto {
+    background-color: rgb(162, 152, 152);
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.saasisalto,
+.junaSisältö {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.otsikko {
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.valiviiva {
+    border-bottom: solid 1px;
+}
+
+/* Sää, HKI TRE */
+.saa-box,
+.juna-box {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgb(162, 152, 152);
+    display: flexbox;
+    padding: 1px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.saa-box h3,
+.juna-box h3 {
+    margin: 10px 0;
+}
+
+.saa-box p,
+.juna-box p {
+    color: #444;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* sääkamerat */
+#kamerat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px auto;
+}
+
+.kamera-box {
+    width: 40%;
+    padding: 5px;
+    background-color: rgb(162, 152, 152);
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+.kamera-box p {
+    color: black;
+    font-size: 14px;
+}
+
+.kamera-kuva {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
